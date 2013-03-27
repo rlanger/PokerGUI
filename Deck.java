@@ -1,0 +1,1 @@
+// The "Deck" interface.public interface Deck{    // Shuffles a deck    public void shuffle( );    // Returns a String version of a deck that     // can be used to display the deck    public String toString( );        // Returns an Iterator to traverse a deck    public Iterator createIterator( );                } // Deck interface

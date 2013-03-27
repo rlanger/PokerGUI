@@ -1,0 +1,1 @@
+import java.awt.*;import java.awt.event.*;// This class exits the program when called.  Taken from CISC 124 notes.public class WindowDestroyer extends WindowAdapter {public void windowClosing(WindowEvent e) {System.exit(0);}}

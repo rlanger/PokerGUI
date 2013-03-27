@@ -1,0 +1,1 @@
+// Comparator determines which of two cards has the highest value.public class CardComparator implements Comparator {public int compare ( Object obj1, Object obj2 ) {Card card1 = (Card) obj1;Card card2 = (Card) obj2;if (card1.getNumber() < card2.getNumber())	return -1;	else if (card1.getNumber() > card2.getNumber())	return 1;	else return 0;}}

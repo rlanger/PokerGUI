@@ -1,0 +1,1 @@
+public interface Comparator{	int compare( Object obj1, Object obj2);	boolean equals (Object obj);}
